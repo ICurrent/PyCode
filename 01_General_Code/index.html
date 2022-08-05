@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+    <h1>Register for For your hostel</h1>
+<form action="{{ url_for('register') }}" method="post"></form>
+    Name: <input name="name" type="text"/>
+    <br/>
+    matric number: <input name="name" type="text"/>
+    <br/>
+    Dorm:
+    <select name="dorm">
+        <option value=""></option>
+        <option value="Jaja Hall">Jaja Hall</option>
+        <option value="Moremi Hall">Moremi Hall</option>
+        <option value="Njokwu Hall">Njokwu Hall</option>
+    </select>
+
+</body>
+</html>

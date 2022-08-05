@@ -1,0 +1,16 @@
+Q.1 = What is python
+a. snake
+b. program
+c. programming language
+d.reptile with legs
+Q.2 = What is not a python data type
+a. int
+b. float
+c. tuple
+d. none
+Q.3 = Who is teaches python in compudemic?
+a. adeshina
+b. fashola
+c. ambode
+d. none
+

@@ -1,0 +1,5 @@
+new_file_one = open("compudemic.txt", "a")
+new_file_one.write("\ nand APC said it was rigged")
+new_file_one.write("\nnigeria is changing")
+new_file_one.write("\nam happy")
+new_file_one.close()

@@ -1,0 +1,51 @@
+
+'''    def enroll_NpnAcad(self, student):
+        self.student.append(student)
+
+    def department(self):
+        #self.science 
+        print("In a Department")
+
+    def get_student(self):
+        return self.student'''
+
+s1 = Student('Emmanuel', 'Ogunleye', 21, 'Male')
+s2 = Student('Curent', 'Amps', 23, 'Male')
+s3 = Student('Taiwo', 'Elizabeth', 24, "Female")
+print(s1.enroll(s3))
+
+print(s1.students[0].name)
+#
+#s4 = Student('Enoch', 'Ogunleye', 18, 'Male')
+#s5 = Student('Ayomide', 'Bakare', 21, 'Famale')
+
+'''s1.enroll_Acad(s1.firstName)
+s1.enroll_Acad(s2.firstName)
+#s1.enroll_Acad(s3.firstName)
+#s1.enroll_Acad(s4.firstName)
+#s1.enroll_Acad(s5.firstName)
+
+print(s1.get_student())
+print(s1.student)
+print()
+
+import random
+class Animal(object):
+
+    def __init__(self, name):
+        self.name = name
+
+class Dog(Animal):
+
+    def __init__(self, name):
+        super(Dog, self).__init__(name)
+        self.breed = random.choice(['Doberman', 'German Shepherd', 'Beagle'])
+
+    def fetch(self, thing):
+        print("%s goes after the %s!" %(self.name, thing))
+
+d = Dog('dogname')
+
+print(d.name)
+print(d.breed)
+d.fetch(d.name)'''
