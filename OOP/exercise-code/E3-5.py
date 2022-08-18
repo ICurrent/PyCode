@@ -23,10 +23,11 @@ class Employee:
             self._email = new_email
         else:
             raise RuntimeError(f'Domain {domain} is not allowed')
-            
+                    
 e1 = Employee('John','john@gmail.com')
 e2 = Employee('Jack','jack@yahoo.com')
 e3 = Employee('Jill','jill@outlook.com')
+e3.display()
 e4 = Employee('Ted','ted@yahoo.com')
 e5 = Employee('Tim','tim@xmail.com')
 e5.display()
@@ -36,4 +37,3 @@ e4.display()
 
 e3.email = 'jill@gmail.com'
 e3.display()
-
