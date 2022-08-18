@@ -1,6 +1,6 @@
 name = input("Enter your name: ")
 
-print(f'Hi! {name}, welcome to Current's Car rental system')
+print(f"Hi! {name}, welcome to Current's Car rental system")
 print()
 
 class Rental:
@@ -10,10 +10,12 @@ class Rental:
         self._lendDict = {}
 
     def Displaycars(self):
+        print()
         print(f'List of cars available for rent are here:\n', self._name)
         for car in self._carlist:
             print(car)
-    
+        print()
+
     def Lendcar(self, user, car):
         if car  not in self._lendDict.keys():
             self._lendDict.update({car:user})

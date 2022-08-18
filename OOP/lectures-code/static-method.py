@@ -16,5 +16,5 @@ class MyClass():
 
      @staticmethod
      def method3(m,n):
-          retrun m+n     
+          return m+n     
  
