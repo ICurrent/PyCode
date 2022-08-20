@@ -9,6 +9,28 @@ def roman_to_int(rom):
             number += roman[rom[i]]
     return number + roman[rom[-1]]
 
+
+def int_to_rom(number):
+    num = [1, 4, 5, 9, 10, 40, 50, 90,\
+            100, 400, 500, 900, 1000]
+    roman = "I IV V IX X XL L XC C CD D CM M"
+    roman = roman.split()
+    i = 12
+
+    while number:
+        div = number // num[i]
+        number %= num[i]
+
+        while div:
+            print(roman[i], end='')
+            div -= 1
+        i -= 1
+
+
 if __name__ == "__main__":
     roman = "DCXXI"
     print(roman_to_int(roman))
+    #print()
+    num = 621
+    int_to_rom(num)
+
