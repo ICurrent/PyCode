@@ -1,3 +1,3 @@
-import calendar
+from calendar import *
 
-print(calendar.calendar[2020])
+print(calendar(2000,2, 1, 8, 4 ))
