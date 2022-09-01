@@ -11,4 +11,4 @@ def pythagoras(opposite, adjacent, hypotenus):
     except ValueError:
         print("Invalid argument(s) were given. ")
 
-print(pythagoras('?',5, 6))
+print(pythagoras('?',4, 5))
