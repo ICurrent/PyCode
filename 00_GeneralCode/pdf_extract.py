@@ -1,4 +1,4 @@
-import PyPDF2:
+import PyPDF2
 
 pdf = open("some pdf", 'rb')
 reader = PyPDF2.PdfFileReader(pdf)
