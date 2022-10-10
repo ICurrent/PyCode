@@ -1,6 +1,3 @@
-from ast import Break
-
-
 def cgpa_eva():
     try:
         no_of_semester = int(input("Enter the number of Semesters: "))
